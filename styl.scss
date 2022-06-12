@@ -1,20 +1,64 @@
-
-
 // -------スクロール---------
 
 body {
     background-color: white;
-  }
-  
-  ul {
+}
+
+ul {
     padding: 0;
-  }
-  
-  .container {
+}
+
+.container {
     width: 800px;
     margin: 0 auto;
-  }
-  
-  .slide-items img {
+}
+
+.slide-items img {
     width: 100%;
+}
+
+
+// ページトップに戻る
+#page-top {
+    margin-top: 0%;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    line-height: 1;
+    z-index: 99;
+    background-color: black;
+  
+    a {
+      font-size: 40px;
+      width: 80px;
+      padding: 20px 1px;
+      text-align: center;
+      display: block;
+      border-radius: 99px;
+      transition: all .1s ease;
+  
+      &:hover {
+        opacity: 0.5;
+      }
+    }
   }
+
+
+// フッター
+footer {
+    height: 80px;
+    background: black;
+    position: relative;
+
+small {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+}

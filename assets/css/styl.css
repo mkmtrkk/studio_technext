@@ -13,4 +13,43 @@ ul {
 
 .slide-items img {
   width: 100%;
+}
+
+#page-top {
+  margin-top: 0%;
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  line-height: 1;
+  z-index: 99;
+  background-color: black;
+}
+#page-top a {
+  font-size: 40px;
+  width: 80px;
+  padding: 20px 1px;
+  text-align: center;
+  display: block;
+  border-radius: 99px;
+  transition: all 0.1s ease;
+}
+#page-top a:hover {
+  opacity: 0.5;
+}
+
+footer {
+  height: 80px;
+  background: black;
+  position: relative;
+}
+footer small {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=styl.css.map */
